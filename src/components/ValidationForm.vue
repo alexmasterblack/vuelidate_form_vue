@@ -42,11 +42,6 @@
                         <input class="form-check-input" type="radio" name="gender" v-model="userForm.gender" id="gender2" value="female">
                         <label class="form-check-label" for="gender2">Female</label>
                     </div>
-                    <div class="form-check form-check-inline" :class="{ 'is-invalid': isSubmitted && $v.userForm.gender.$error }">
-                        <input class="form-check-input" type="radio" name="gender" v-model="userForm.gender" id="gender2" value="female">
-                        <label class="form-check-label" for="gender2">Other</label>
-                    </div>
-
                     <div v-if="isSubmitted && $v.userForm.gender.$error" class="invalid-feedback">
                         <span v-if="!$v.userForm.gender.required">This field is required</span>
                     </div>
