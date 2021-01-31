@@ -1,24 +1,7 @@
-# vue_validation
+# Форма с валидацией на Vue.js
 
-## Project setup
-```
-npm install
-```
+## Выполнено [Уткиным Данилом](https://github.com/DanilKlukanov) и [Клюкановой Дианой](https://github.com/alexmasterblack)
+## Б8119-01.03.02систпро
+## [Deploy on Heroku](https://vue-validation-form.herokuapp.com/)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+<a href="url"><img src="form.gif"></a>
